@@ -36,6 +36,11 @@ matrix:
     - php: '7.3'
       env: SYMFONY='dev-master as 4.4.x-dev'
     - php: '7.3'
+<<<<<<< HEAD
+=======
+      env: SONATA_ADMIN='dev-master as 3.x-dev'
+    - php: '7.3'
+>>>>>>> remove sonata admin 3.0 support
       env: SYMFONY_DEPRECATIONS_HELPER=0
   allow_failures:
     - php: nightly
