@@ -92,7 +92,7 @@ class AuditBlockService extends AbstractBlockService
         }
     }
 
-    public function execute(BlockContextInterface $blockContext, ?Response $response = null)
+    public function execute(BlockContextInterface $blockContext, ?Response $response = null): Response
     {
         $revisions = [];
 
