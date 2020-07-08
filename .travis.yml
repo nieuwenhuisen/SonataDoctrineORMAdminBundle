@@ -59,4 +59,3 @@ script: make $TARGET
 
 after_success:
   - if [ -x .travis/after_success_${TARGET}.sh ]; then .travis/after_success_${TARGET}.sh; fi;
-
